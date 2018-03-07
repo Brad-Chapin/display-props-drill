@@ -1,0 +1,55 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Your styles go here! */
+
+.whole-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.box {
+  border: 1px black solid;
+}
+
+.row {
+  display: inline-block;
+}
+
+.row-one {
+  width: 50%;
+  height:200px;
+}
+
+.row-two {
+  width: 33.33%;
+  height: 300px;
+}
+
+.row-one-left {
+  background-color: darkgreen;
+}
+
+.row-one-right {
+  background-color: blue;
+}
+
+.row-two-left {
+  background-color: gray;
+}
+
+.row-two-middle {
+  background-color: black;
+}
+
+.row-two-right {
+  background-color: orange;
+}
